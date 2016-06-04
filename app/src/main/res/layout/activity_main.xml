@@ -15,8 +15,29 @@
         android:layout_height="wrap_content"
         android:text="Login"
         android:id="@+id/login"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox1"
+        android:checked="true"
+        android:text="我是单身"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox2"
+        android:text="我已婚"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toast提示"
+        android:id="@+id/toast"/>
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:id="@+id/image"/>
+
 </LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:id="@+id/main">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@mipmap/main_menu_bk"
+        android:orientation="vertical">
+        <!-- android:splitMotionEvents="false"多个view是否分流touch 事件 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:splitMotionEvents="false">
+            <LinearLayout
+                android:id="@+id/menu_1"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="装B模式"
+                    android:textColor="#ffffffff"
+                    android:textSize="28sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider"/>
+            <LinearLayout
+                android:id="@+id/menu_2"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="要饭模式"
+                    android:textColor="#ffffffff"
+                    android:textSize="28sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider"/>
+            <LinearLayout
+                android:id="@+id/menu_3"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="飞行模式"
+                    android:textColor="#ffffffff"
+                    android:textSize="28sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+</LinearLayout>
