@@ -94,9 +94,9 @@ public class MainActivityTest {
     }
     @Test
     public void testToast(){
-
         Button toast=(Button)mainActivity.findViewById(R.id.toast);
         toast.performClick();
         assertEquals(ShadowToast.getTextOfLatestToast(),"提示一下");
+        System.out.print("上海滩");
     }
 }
